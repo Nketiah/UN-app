@@ -96,7 +96,7 @@ export default {
     methods: {
       registerUser(){
             this.loading = true
-           axios.post("https://una-cwca.snetgh.com/api/auth/users", this.form)
+           axios.post("https://unacwca.snetgh.com/api/auth/users", this.form)
              .then( (response) =>{
               this.errors = response.data.errors
               console.log(response.data.errors)

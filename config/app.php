@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://una-cwca.snetgh.com'),
+    'url' => env('APP_URL', 'https://unacwca.snetgh.com'),
 
     'asset_url' => env('ASSET_URL', null),
 

@@ -56,7 +56,7 @@ export default {
     methods: {
         sendForgotPassword(){
                this.loading = true
-                axios.post("https://una-cwca.snetgh.com/api/forgot-password",{email: this.email}).then( (response)=>{
+                axios.post("https://unacwca.snetgh.com/api/forgot-password",{email: this.email}).then( (response)=>{
                 if(response.data.message == "Email sent")
                 {
                     this.$noty.success("Email sent, please check your inbox!")

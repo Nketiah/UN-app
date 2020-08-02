@@ -26,7 +26,7 @@ window.Vue = require('vue');
 
 //http://new-app.dev/api
 
-axios.defaults.baseURL = "https://una-cwca.snetgh.com/api/"
+axios.defaults.baseURL = "https://unacwca.snetgh.com/api/"
 
 store.dispatch('auth/attempt', localStorage.getItem('token')).then(() => {
 

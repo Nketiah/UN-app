@@ -63,7 +63,7 @@ export default {
        sendResetPassword(){
            this.loading = true
            const token = this.$route.query.token
-         axios.post("https://una-cwca.snetgh.com/api/reset-password", {...this.user, token})
+         axios.post("https://unacwca.snetgh.com/api/reset-password", {...this.user, token})
          .then( (response) =>{
              if(response.data.message == "password reset succeeded")
              { 
